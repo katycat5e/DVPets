@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netframework4.8</TargetFramework>
+    <Nullable>disable</Nullable>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="DV.Utils" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityModManager" />
+  </ItemGroup>
+</Project>
